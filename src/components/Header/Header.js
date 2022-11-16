@@ -7,10 +7,10 @@ export default function Header({ title }) {
       {/* <h1 title="Header" className="header">
         {title}
       </h1> */}
-      <h1 title="Header" className="header" data-testId="header-1">
-        My Header
+      <h1 title="Header" className="header" data-test-id="header-1">
+        {title}
       </h1>
-      <h1 className="header">Kush</h1>
+      {/* <h1 className="header">Kush</h1> */}
     </>
   );
 }
